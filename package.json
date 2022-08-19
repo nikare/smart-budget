@@ -7,7 +7,11 @@
     "name": "Nikolay Karetskiy",
     "email": "NikolayKaretskiy@yandex.ru"
   },
-  "scripts": {},
+  "scripts": {
+    "-------- PWA --------": "",
+    "start:pwa": "cd packages/pwa && pnpm start",
+    "build:pwa": "cd packages/pwa && pnpm build"
+  },
   "engines": {
     "node": "^16.0.0",
     "pnpm": "^7.0.0",
