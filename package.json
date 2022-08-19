@@ -2,6 +2,7 @@
   "name": "smart-budget",
   "description": "Smart Budget - Приложение для планирования бюджета",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Nikolay Karetskiy",
     "email": "NikolayKaretskiy@yandex.ru"
