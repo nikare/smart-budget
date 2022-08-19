@@ -12,6 +12,9 @@
     "start:pwa": "cd packages/pwa && pnpm start",
     "build:pwa": "cd packages/pwa && pnpm build"
   },
+  "dependencies": {
+    "@smart-budget/vendors": "^0.0.0-alpha"
+  },
   "engines": {
     "node": "^16.0.0",
     "pnpm": "^7.0.0",

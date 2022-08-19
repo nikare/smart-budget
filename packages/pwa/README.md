@@ -1,3 +1,3 @@
-# Smart Budget
+# Smart Budget - PWA
 
-Progressive Web Application
+Прогрессивное веб-приложение

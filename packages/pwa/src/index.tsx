@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '@smart-budget/vendors';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { App } from './App';
