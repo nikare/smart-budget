@@ -1,0 +1,16 @@
+{
+  "name": "smart-budget",
+  "description": "Smart Budget - Приложение для планирования бюджета",
+  "license": "MIT",
+  "author": {
+    "name": "Nikolay Karetskiy",
+    "email": "NikolayKaretskiy@yandex.ru"
+  },
+  "scripts": {},
+  "engines": {
+    "node": "^16.0.0",
+    "pnpm": "^7.0.0",
+    "npm": "false",
+    "yarn": "false"
+  }
+}
