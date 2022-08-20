@@ -8,12 +8,12 @@
     "email": "NikolayKaretskiy@yandex.ru"
   },
   "scripts": {
-    "------------ App ------------": "",
-    "start:app": "cd packages/pwa && pnpm start",
-    "build:app": "cd packages/pwa && pnpm build",
     "------------ Backend --------": "",
     "start:backend": "cd packages/backend && pnpm start",
     "build:backend": "cd packages/backend && pnpm build",
+    "------------ Desktop ------------": "",
+    "start:desktop": "cd packages/desktop && pnpm start",
+    "build:desktop": "cd packages/desktop && pnpm build",
     "------------ Mobile ---------": "",
     "start:mobile": "cd packages/mobile && pnpm start",
     "build:mobile": "cd packages/mobile && pnpm build",
@@ -22,7 +22,7 @@
     "build:pwa": "cd packages/pwa && pnpm build",
     "deploy:pwa": "PUBLIC_URL=/smart-budget/ pnpm build:pwa && gh-pages -d packages/pwa/build",
     "------------ Storybook ------": "",
-    "start:storybook": "cd shared/storybook && pnpm start",
+    "start:storybook": "cd packages/storybook && pnpm start",
     "------------ Website --------": "",
     "start:website": "cd packages/website && pnpm start",
     "build:website": "cd packages/website && pnpm build"

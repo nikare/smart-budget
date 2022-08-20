@@ -1,3 +1,3 @@
-# Smart Budget
+# Smart Budget - Backend
 
 Бэкенд для приложений
