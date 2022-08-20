@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/smart-budget/static/js/main.72e1c9e1.js",
+    "service-worker.js": "/smart-budget/service-worker.js",
+    "index.html": "/smart-budget/index.html",
+    "main.72e1c9e1.js.map": "/smart-budget/static/js/main.72e1c9e1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.72e1c9e1.js"
+  ]
+}
