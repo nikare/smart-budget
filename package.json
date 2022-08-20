@@ -20,6 +20,7 @@
     "------------ PWA ------------": "",
     "start:pwa": "cd packages/pwa && pnpm start",
     "build:pwa": "cd packages/pwa && pnpm build",
+    "deploy:pwa": "PUBLIC_URL=/smart-budget/ pnpm build:pwa && gh-pages -d packages/pwa/build",
     "------------ Storybook ------": "",
     "start:storybook": "cd shared/storybook && pnpm start",
     "------------ Website --------": "",
@@ -28,6 +29,9 @@
   },
   "dependencies": {
     "@smart-budget/storybook": "^0.0.0-alpha"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   },
   "engines": {
     "node": "^16.0.0",
