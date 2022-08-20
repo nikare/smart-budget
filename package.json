@@ -8,10 +8,24 @@
     "email": "NikolayKaretskiy@yandex.ru"
   },
   "scripts": {
-    "---------- PWA ----------": "",
+    "---------- PACKAGES ----------": "",
+    "------------ App -------------": "",
+    "start:app": "cd packages/pwa && pnpm start",
+    "build:app": "cd packages/pwa && pnpm build",
+    "------------ Backend -------------": "",
+    "start:backend": "cd packages/backend && pnpm start",
+    "build:backend": "cd packages/backend && pnpm build",
+    "------------ Mobile -------------": "",
+    "start:mobile": "cd packages/mobile && pnpm start",
+    "build:mobile": "cd packages/mobile && pnpm build",
+    "------------ PWA -------------": "",
     "start:pwa": "cd packages/pwa && pnpm start",
     "build:pwa": "cd packages/pwa && pnpm build",
-    "-------- components --------": "",
+    "---------- Website -----------": "",
+    "start:website": "cd packages/website && pnpm start",
+    "build:website": "cd packages/website && pnpm build",
+    "----------- SHARED -----------": "",
+    "--------- components ---------": "",
     "start:components": "cd shared/components && pnpm start"
   },
   "dependencies": {
