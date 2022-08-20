@@ -1,6 +1,6 @@
 {
-  "name": "@smart-budget/components",
-  "description": "Smart Budget - components",
+  "name": "@smart-budget/storybook",
+  "description": "Smart Budget - Storybook",
   "version": "0.0.0-alpha",
   "main": "./src/index.ts",
   "private": true,
