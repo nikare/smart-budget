@@ -8,11 +8,14 @@
     "email": "NikolayKaretskiy@yandex.ru"
   },
   "scripts": {
-    "-------- PWA --------": "",
+    "---------- PWA ----------": "",
     "start:pwa": "cd packages/pwa && pnpm start",
-    "build:pwa": "cd packages/pwa && pnpm build"
+    "build:pwa": "cd packages/pwa && pnpm build",
+    "-------- components --------": "",
+    "start:components": "cd shared/components && pnpm start"
   },
   "dependencies": {
+    "@smart-budget/components": "^0.0.0-alpha",
     "@smart-budget/vendors": "^0.0.0-alpha"
   },
   "engines": {
