@@ -8,6 +8,7 @@
     "email": "NikolayKaretskiy@yandex.ru"
   },
   "scripts": {
+    "start": "run-p start:pwa",
     "------------ Backend --------": "",
     "start:backend": "cd packages/backend && pnpm start",
     "build:backend": "cd packages/backend && pnpm build",
@@ -21,8 +22,6 @@
     "start:pwa": "cd packages/pwa && pnpm start",
     "build:pwa": "cd packages/pwa && pnpm build",
     "deploy:pwa": "PUBLIC_URL=/smart-budget/ pnpm build:pwa && gh-pages -d packages/pwa/build",
-    "------------ Storybook ------": "",
-    "start:storybook": "cd packages/storybook && pnpm start",
     "------------ Website --------": "",
     "start:website": "cd packages/website && pnpm start",
     "build:website": "cd packages/website && pnpm build"
@@ -31,7 +30,8 @@
     "@smart-budget/storybook": "^0.0.0-alpha"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "npm-run-all": "^4.1.5"
   },
   "engines": {
     "node": "^16.0.0",
