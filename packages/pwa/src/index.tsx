@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
 import './vendor';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import { store } from './store';
 import { App } from './App';
 
 const Root = (
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
