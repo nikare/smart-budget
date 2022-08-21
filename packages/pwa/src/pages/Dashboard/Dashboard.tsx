@@ -1,7 +1,9 @@
+import { Balance } from './components';
+
 export const Dashboard = () => {
   return (
     <div className="Dashboard">
-      <span>Dashboard</span>
+      <Balance />
     </div>
   );
 };
