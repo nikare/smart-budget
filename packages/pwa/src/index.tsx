@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './vendor';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { App } from './App';
