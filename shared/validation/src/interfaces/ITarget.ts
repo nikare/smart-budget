@@ -1,6 +1,8 @@
 import { Currency } from '../types';
-export interface ICash {
+
+export interface ITarget {
   title: string;
   value: number;
+  amount: number;
   currency: Currency;
 }

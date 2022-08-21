@@ -1,5 +1,19 @@
 import { configureStore, createSlice } from '@reduxjs/toolkit';
-import { initialState } from './initialState';
+import { IState } from '@smart-budget/validation';
+
+export const initialState: IState = {
+  budget: [],
+  cash: [],
+  financialCushion: [],
+  income: {
+    value: 0,
+    currency: 'RUB',
+  },
+  available: 0,
+  target: [],
+  investment: [],
+  wealth: 0,
+};
 
 const slice = createSlice({
   name: 'store',
@@ -9,4 +23,3 @@ const slice = createSlice({
 
 export const actions = slice.actions;
 export const store = configureStore({ reducer: slice.reducer });
-export type RootState = ReturnType<typeof store.getState>;

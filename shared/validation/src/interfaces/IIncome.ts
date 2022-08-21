@@ -1,6 +1,6 @@
 import { Currency } from '../types';
-export interface ICash {
-  title: string;
+
+export interface IIncome {
   value: number;
   currency: Currency;
 }

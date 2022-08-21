@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
-import { RootState } from 'store';
+import { IState } from '@smart-budget/validation';
 
 export function useStore() {
-  return useSelector((state: RootState) => state);
+  return useSelector((state: IState) => state);
 }
